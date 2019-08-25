@@ -20,6 +20,9 @@
            sync-c="true"
            sync-f="true" />
 
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="aosp-caf-upstream" /> 
+
   <project name="abl_tianocore_edk2" path="bootable/bootloader/edk2"/>
   <project name="device_common" path="device/common"/>
   <project name="device_generic_arm64" path="device/generic/arm64"/>
