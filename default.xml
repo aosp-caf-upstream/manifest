@@ -12,7 +12,7 @@
           revision="refs/tags/android-9.0.0_r46" />
 
   <remote name="aosp-caf-upstream"
-          fetch="https://github.com/aosp-caf-upstream" />
+          fetch="ssh://git@github.com/aosp-caf-upstream" />
 
   <default revision="pie"
            remote="aosp-caf-upstream"
